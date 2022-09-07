@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPatterns", "Creat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimpleFactory", "SimpleFactory", "{0DCDB997-CF6F-410A-9F14-99F6B229ACB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CP.SimpleFactory.Lib", "CreationalPatterns\CP.SimpleFactory.Lib\CP.SimpleFactory.Lib.csproj", "{C007DB44-58F3-4BF1-8422-41B8CA710758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CP.SimpleFactory.Console", "CreationalPatterns\CP.SimpleFactory.Console\CP.SimpleFactory.Console.csproj", "{3AEBE4C3-DEF0-4482-A8B0-B24E23048468}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,5 +21,17 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0DCDB997-CF6F-410A-9F14-99F6B229ACB1} = {2AFF852A-F505-41BF-8483-6132C07F19FE}
+		{C007DB44-58F3-4BF1-8422-41B8CA710758} = {0DCDB997-CF6F-410A-9F14-99F6B229ACB1}
+		{3AEBE4C3-DEF0-4482-A8B0-B24E23048468} = {0DCDB997-CF6F-410A-9F14-99F6B229ACB1}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C007DB44-58F3-4BF1-8422-41B8CA710758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C007DB44-58F3-4BF1-8422-41B8CA710758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C007DB44-58F3-4BF1-8422-41B8CA710758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C007DB44-58F3-4BF1-8422-41B8CA710758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AEBE4C3-DEF0-4482-A8B0-B24E23048468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AEBE4C3-DEF0-4482-A8B0-B24E23048468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AEBE4C3-DEF0-4482-A8B0-B24E23048468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AEBE4C3-DEF0-4482-A8B0-B24E23048468}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
