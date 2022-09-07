@@ -1,38 +1,38 @@
 ﻿namespace CP.SimpleFactory.Lib;
 
 
-public interface ICreditCard
+public interface IFeature
 {
     string GetCardType();
     int GetUploadLimit();
     int GetAnnualCharge();
 }
 
-public static class CreditCardFactory
+public static class FeatureFactory
 {
-    public static ICreditCard CreateCreditCard(string creditCardType)
+    public static IFeature CreateFeature(string featureType)
     {
-        ICreditCard creditCard=null;
-        if (creditCardType == "Silver")
+        IFeature feature=null;
+        if (featureType == "Silver")
         {
-            creditCard= new Silver();
+            feature= new Silver();
            
         }
-        else if (creditCardType == "Gold")
+        else if (featureType == "Gold")
         {
-            creditCard= new Gold();
+            feature= new Gold();
            
         }
-        else if (creditCardType == "Platinum")
+        else if (featureType == "Platinum")
         {
-            creditCard= new Platinum();
+            feature= new Platinum();
            
         }
-        return creditCard;
+        return feature;
     }
 }
 
-public class Silver : ICreditCard
+public class Silver : IFeature
 {
     public string GetCardType() => "Silver";
 
@@ -40,7 +40,7 @@ public class Silver : ICreditCard
 
     public int GetAnnualCharge() => 250;
 }
-public class Gold : ICreditCard
+public class Gold : IFeature
 {
     public string GetCardType() => "Gold";
 
@@ -48,7 +48,7 @@ public class Gold : ICreditCard
 
     public int GetAnnualCharge() => 500;
 }
-public class Platinum : ICreditCard
+public class Platinum : IFeature
 {
     public string GetCardType() => "Platinum";
 

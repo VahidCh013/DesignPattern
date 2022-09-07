@@ -5,11 +5,17 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPatterns", "CreationalPatterns", "{2AFF852A-F505-41BF-8483-6132C07F19FE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimpleFactory", "SimpleFactory", "{0DCDB997-CF6F-410A-9F14-99F6B229ACB1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01SimpleFactory", "01SimpleFactory", "{0DCDB997-CF6F-410A-9F14-99F6B229ACB1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CP.SimpleFactory.Lib", "CreationalPatterns\CP.SimpleFactory.Lib\CP.SimpleFactory.Lib.csproj", "{C007DB44-58F3-4BF1-8422-41B8CA710758}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CP.SimpleFactory.Console", "CreationalPatterns\CP.SimpleFactory.Console\CP.SimpleFactory.Console.csproj", "{3AEBE4C3-DEF0-4482-A8B0-B24E23048468}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02FactoryMethod", "02FactoryMethod", "{B86AD9C8-DA1C-4C41-B4B4-9019DB0DF190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CP.FactoryMethod.Console", "CreationalPatterns\CP.FactoryMethod.Console\CP.FactoryMethod.Console.csproj", "{18510354-6A34-4648-B3AB-4F143030863C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CP.FactoryMethod.Lib", "CreationalPatterns\CP.FactoryMethod.Lib\CP.FactoryMethod.Lib.csproj", "{80545367-57FE-4681-9D63-6BA866BC69B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +29,9 @@ Global
 		{0DCDB997-CF6F-410A-9F14-99F6B229ACB1} = {2AFF852A-F505-41BF-8483-6132C07F19FE}
 		{C007DB44-58F3-4BF1-8422-41B8CA710758} = {0DCDB997-CF6F-410A-9F14-99F6B229ACB1}
 		{3AEBE4C3-DEF0-4482-A8B0-B24E23048468} = {0DCDB997-CF6F-410A-9F14-99F6B229ACB1}
+		{B86AD9C8-DA1C-4C41-B4B4-9019DB0DF190} = {2AFF852A-F505-41BF-8483-6132C07F19FE}
+		{18510354-6A34-4648-B3AB-4F143030863C} = {B86AD9C8-DA1C-4C41-B4B4-9019DB0DF190}
+		{80545367-57FE-4681-9D63-6BA866BC69B4} = {B86AD9C8-DA1C-4C41-B4B4-9019DB0DF190}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C007DB44-58F3-4BF1-8422-41B8CA710758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -33,5 +42,13 @@ Global
 		{3AEBE4C3-DEF0-4482-A8B0-B24E23048468}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AEBE4C3-DEF0-4482-A8B0-B24E23048468}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AEBE4C3-DEF0-4482-A8B0-B24E23048468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18510354-6A34-4648-B3AB-4F143030863C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18510354-6A34-4648-B3AB-4F143030863C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18510354-6A34-4648-B3AB-4F143030863C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18510354-6A34-4648-B3AB-4F143030863C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80545367-57FE-4681-9D63-6BA866BC69B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80545367-57FE-4681-9D63-6BA866BC69B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80545367-57FE-4681-9D63-6BA866BC69B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80545367-57FE-4681-9D63-6BA866BC69B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
